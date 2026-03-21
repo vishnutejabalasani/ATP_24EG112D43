@@ -1,0 +1,14 @@
+###Register user
+POST  http://localhost:5000/auth/users
+Content-Type: application/json
+
+{
+    "firstName":"vishnu",
+    "lastName":"",
+    "email":"vishnu@mail",
+    "password":"vishnu",
+    "role":"USER",
+    "profileImageUrl":""
+}
+###
+GET http://localhost:5000/auth/users

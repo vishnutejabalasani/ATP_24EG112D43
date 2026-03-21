@@ -1,0 +1,13 @@
+###Create a new Article
+POST http://localhost:5000/author-api/article
+Content-Type: application/json
+
+{
+    "author":"69b3beddc410896e10415a1f",
+    "title":"Article 1 by Author 1",
+    "category":"Programming",
+    "content":"Test article on author 1"
+}
+
+### Read own article
+GET http://localhost:5000/author-api/article
