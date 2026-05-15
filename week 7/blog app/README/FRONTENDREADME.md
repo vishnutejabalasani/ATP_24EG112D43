@@ -1,4 +1,3 @@
----
 
 # Complete Frontend README.md
 
@@ -610,4 +609,4 @@ https://blog-app.vercel.app
 * Always build project before deployment
 * Verify backend API URL before production
 
---- week 7 frontend
+
